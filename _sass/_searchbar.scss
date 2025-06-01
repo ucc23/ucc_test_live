@@ -1,0 +1,64 @@
+
+#search-container {
+  text-align: center;
+}
+
+#search-input {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 18px;
+  background-color: #fff3ff;
+}
+
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+input {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 18px;
+    background-color: #fff;
+}
+.user-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0.25rem;
+    margin-top: 1rem;
+}
+.card {
+    border: 0 solid #000;
+    background-color: transparent;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.card > .header {
+    margin-bottom: 0.25rem;
+}
+.card > .body_1 {
+    font-size: 1rem;
+    color: #777;
+    font-weight: 700;
+}
+.card > .body_2 {
+    font-size: 1rem;
+    color: #777;
+    font-weight: 700;
+}
+.card > .body_3 {
+    font-size: 1rem;
+    color: #777;
+    font-weight: 700;
+}
